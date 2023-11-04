@@ -73,9 +73,7 @@ foreach($empRecords as $row){
        "action"=>'
          <div class="btns-group">
 
-            <a href="index.php?page=view_sell&&view_id='.$row["id"].'" class="btn btn-primary btn-sm rounded-0 " type="button"><i class="fa fa-eye"></i></a>
-
-            <a href="index.php?page=return_sell&&reurn_id='.$row["id"].'" class="btn btn-dark btn-sm rounded-0 btn-4" type="button"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+            <a href="index.php?page=view_sell&&view_id='.$row["id"].'" class="btn btn-info btn-sm rounded-0 " type="button"><i class="fa fa-eye"></i></a>
 
             <a href="index.php?page=edit_sell&&edit_id='.$row["id"].'"  class="btn btn-secondary btn-sm rounded-0" type="button"><i class="fas fa-edit"></i></a>
             
