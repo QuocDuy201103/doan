@@ -214,35 +214,7 @@
           </ul>
         </li>
         <!-- buy sidebar  -->
-        <li class="nav-item has-treeview">
-          <a href="#" class="nav-link <?php
-          if ($actual_link == 'add_stuff' || $actual_link == 'staff_list') {
-            echo "active";
-          } else {
-            echo "";
-          }
-          ?>">
-            <i class="material-symbols-outlined">diversity_3</i>
-            <p>
-              Staff
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="index.php?page=add_stuff" class="nav-link <?php echo $actual_link == 'add_stuff' ? 'active' : ''; ?>">
-
-                <p>Add Staff</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="index.php?page=staff_list" class="nav-link <?php echo $actual_link == 'staff_list' ? 'active' : ''; ?>">
-
-                <p>Staff list</p>
-              </a>
-            </li>
-          </ul>
-        </li>
+        
 
         <li class="nav-item has-treeview">
           <a href="#" class="nav-link <?php
@@ -294,31 +266,6 @@
                 <p>Sell payment report</p>
               </a>
             </li>
-          </ul>
-        </li>
-        <li class="nav-item has-treeview">
-          <a href="#" class="nav-link <?php
-          if ($actual_link == 'backup_database') {
-            echo "active";
-          } else {
-            echo "";
-          }
-          ?>">
-            <i class="material-symbols-outlined">settings</i>
-            <p>
-              Setting
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="index.php?page=backup_database"
-                class="nav-link <?php echo $actual_link == 'backup_database' ? 'active' : ''; ?>">
-                <!-- <i class="far fa-circle nav-icon"></i> -->
-                <p>Backup database</p>
-              </a>
-            </li>
-
           </ul>
         </li>
     </nav>
